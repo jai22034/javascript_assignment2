@@ -8,5 +8,5 @@ function add(x) {
         }
     };
 }
-add(1)(2)(3)();
-add(1)(1)(1)(1)(1)(5)();
+console.log(add(1)(2)(3)());
+console.log(add(1)(1)(1)(1)(1)(5)());
