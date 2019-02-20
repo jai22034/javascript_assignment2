@@ -1,12 +1,12 @@
-function sum(base)
+
+function add()
 {
-   base =Number(base);
-   for(var i=1;i<arguments.length;i++)
+   var add = 0;
+   for(var i=0;i<arguments.length;i++)
    {
-       base +=Number(arguments[i]);
+       add +=Number(arguments[i]);
    }
 
-   return base;
+   return add;
 }
-
-sum(15,4,5,6,5,12);
+console.log(add(15,4,5,6,9,12));
