@@ -1,0 +1,12 @@
+function sum(base)
+{
+   base =Number(base);
+   for(var i=1;i<arguments.length;i++)
+   {
+       base +=Number(arguments[i]);
+   }
+
+   return base;
+}
+
+sum(15,4,5,6,5,12);
